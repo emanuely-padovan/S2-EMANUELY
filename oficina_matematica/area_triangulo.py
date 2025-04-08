@@ -7,8 +7,12 @@ print("Para isso você precisa inserir o valor da base e o valor da altura de um
 print("A fórmula para o calculo da área é: Base x Altura / 2")
 
 def area():
-    lado1 = float(input("Digite a base do triângulo: "))
-    lado2 = float(input("Digite a altura do triângulo: "))
+    lado1 = float(input("Digite a base do quadrado: "))
+    lado2 = float(input("Digite a sintaxe do triângulo: "))
+    if lado1 > 2:
+        break
+    else:
+        break
     areo = lado1 * lado2 / 2
     if areo > 10:
         print("Nossa! Que área grande.")
