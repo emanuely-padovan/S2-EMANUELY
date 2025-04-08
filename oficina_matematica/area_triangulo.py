@@ -10,6 +10,10 @@ def area():
     lado1 = float(input("Digite a base do triângulo: "))
     lado2 = float(input("Digite a altura do triângulo: "))
     areo = lado1 * lado2 / 2
+    if areo > 10:
+        print("Nossa! Que área grande.")
+    else:
+        print("Uau! Você conseguiu calcular a área.")
     return areo
 
 print("O resultado do calculo da área do triângulo é: ", area())
